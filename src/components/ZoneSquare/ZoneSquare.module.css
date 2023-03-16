@@ -1,0 +1,5 @@
+.zoneSquare {
+  background-color: green;
+  position: absolute;
+  pointer-events: none;
+}

@@ -1,0 +1,26 @@
+.eventItem {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  transition: .3s background-color;
+}
+
+.eventItemText {
+  color: #535bf2;
+}
+
+.eventItem:hover {
+  background-color: lightgray;
+}
+
+.eventItem:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.zoneSquare {
+  background-color: green;
+  position: absolute;
+}
